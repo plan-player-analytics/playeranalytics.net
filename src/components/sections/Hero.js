@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import classNames from 'classnames';
-import { SectionProps } from '../../utils/SectionProps';
+import {SectionProps} from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
@@ -69,12 +69,13 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://github.com/plan-player-analytics/Plan/wiki/Bukkit-Set-Up">
+                  <Button tag="a" color="primary" wideMobile
+                          href="https://github.com/plan-player-analytics/Plan/wiki/Get-Started">
                     Get started
-                    </Button>
+                  </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/plan-player-analytics/Plan">
                     View on Github
-                    </Button>
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>
