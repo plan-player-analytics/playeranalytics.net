@@ -1,7 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 
 const propTypes = {
@@ -120,7 +119,9 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                      <a href="https://github.com/plan-player-analytics/Plan/wiki/Bukkit-Set-Up" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Install</a>
+                        <a href="https://github.com/plan-player-analytics/Plan/wiki/Get-Started"
+                           className="button button-primary button-wide-mobile button-sm"
+                           onClick={closeMenu}>Install</a>
                       </li>
                     </ul>}
                 </div>

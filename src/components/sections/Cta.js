@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { SectionProps } from '../../utils/SectionProps';
+import {SectionProps} from '../../utils/SectionProps';
 import Button from '../elements/Button';
 
 const propTypes = {
@@ -57,9 +57,10 @@ const Cta = ({
               </h3>
           </div>
           <div className="cta-action">
-          <Button tag="a" color="tertiary" wideMobile href="https://github.com/plan-player-analytics/Plan/wiki/Bukkit-Set-Up">
-                    Get started
-                    </Button>
+            <Button tag="a" color="tertiary" wideMobile
+                    href="https://github.com/plan-player-analytics/Plan/wiki/Get-Started">
+              Get started
+            </Button>
           </div>
         </div>
       </div>
