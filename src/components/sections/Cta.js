@@ -53,7 +53,7 @@ const Cta = ({
         >
           <div className="cta-slogan">
             <h3 className="m-0">
-              Join the 4000+ servers with Plan already installed
+              Join the 5000+ servers with Plan already installed
               </h3>
           </div>
           <div className="cta-action">
